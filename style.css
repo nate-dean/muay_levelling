@@ -1,0 +1,56 @@
+* {
+    font-family: system-ui, sans-serif;
+    
+   /* background: radial-gradient(circle,
+    #6dcee6 0%,
+    #000000 100%
+    );*/
+}
+
+.container {    
+     max-width: 480px;
+      margin: 0 auto;
+     padding: 16px;
+     background-color: #ddd9d9;
+    
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+h1, p {
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.general_stats {
+    display: flex;
+    justify-content: center;
+}
+
+.general_left, .general_right {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.to_next_lvl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
